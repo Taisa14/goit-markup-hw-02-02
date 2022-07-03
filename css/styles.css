@@ -1,23 +1,16 @@
 :root {
-    /* fonts */
+    
     --main-font: Roboto,sans-serif;
     --logo-font: Raleway,sans-serif;
 
-    /* text colors */
+    
     --main-txt-cl: #212121;
     --acent-txt-cl: #2196F3;
 
-    /* bg colors */
+    
     --dark-bg-colors: #2f303a;
     --light-bg-color: #f5f4fa;
     
-    /* others */
-
-    /* base styles */
-
- 
-}
-
 body {
     font-family: var(--main-font); 
     color: var(--main-txt-cl)
@@ -33,7 +26,7 @@ body {
 
 
 
-/* portfolio */
+
 .work-btn-list {
 --main-font: Roboto,sans-serif;
 background: color #2196f3; 
@@ -42,7 +35,6 @@ color: #FFFFFF;
 .work-btn-item.list.current {
     color: #2196F3;
 } 
-
 .work-btn-item {
     font-weight: 500;
     font-size: 16px;
