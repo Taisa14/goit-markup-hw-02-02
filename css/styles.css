@@ -1,1 +1,37 @@
+:root {
+    /* fonts */
+    --main-font: Roboto,sans-serif;
+    --logo-font: Raleway,sans-serif;
+
+    /* text colors */
+    --main-txt-cl: #212121;
+    --acent-txt-cl: #2196F3;
+
+    /* bg colors */
+    --dark-bg-colors: #2f303a;
+    --light-bg-color: #f5f4fa;
+    
+    /* others */
+
+    /* base styles */
+
  
+}
+
+body {
+    font-family: var(--main-font); 
+    color: var(--main-txt-cl)
+}
+.logo {
+    font-family: var(--logo-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26 px;
+    line-height: calc(31/26);
+    letter-spacing: 0,3em;
+}
+
+
+
+
+
