@@ -14,31 +14,43 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <a class="logo-link link" href="">WebStudio</a>
-      <nav class="header-nav">
-        <ul class="header-list">
-          <li class="header-item"><a href="">Студия</a></li>
-          <li class="header-item"><a href="">Портфолио</a></li>
-          <li class="header-item"><a href="">Контакты</a></li>
+    <nav>
+        <ul class="list site-nav header-box">
+          <li class="item">
+            <a href="./index.html" class="link site-nav-link">Студия</a>
+          </li>
+          <li class="item">
+            <a href="./portfolio.html." class="current-link link site-nav-link"
+              >Портфолио</a
+            >
+          </li>
+          <li class="item">
+            <a href="#contacts" class="link site-nav-link">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <ul class="header-list">
-        <li class="header-item">
-          <a class="header-link link" href="mailto:info@devstudio.com"
+      <ul class="list header-box address-list">
+        <li class="address-item">
+          <a href="mailto:info@devstudio.com" class="link address-link"
             >info@devstudio.com</a
           >
         </li>
-        <li class="header-item">
-          <a class="header-phone" href="tel:+380961111111">+38 099 111 11 11</a>
+        <li class="address-item">
+          <a href="tel:+380961111111" class="link address">+38 099 111 11 11</a>
         </li>
       </ul>
     </header>
+
     <main>
       <section class="section portfolio">
         <h1 class="visually-hidden">Портфолио</h1>
-        <ul class="list-buttons">
-          <li><button class="button" type="button">Все</button></li>
+        <ul class="list">
+          <li> <button type="button" class="work-btn-item current">Все</button>
+          <li> <button type="button" class="work-btn-item">Веб-сайты</button></li>
+          <li> <button type="button" class="work-btn-item">Приложения</button></li>
+          <li> <button type="button" class="work-btn-item">Дизайн</button></li>
+          <li> <button type="button" class="work-btn-item">Маркетинг</button></li>
+          </li>
         </ul>
         <ul class="list">
           <li>
