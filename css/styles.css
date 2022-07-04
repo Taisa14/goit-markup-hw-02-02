@@ -1,0 +1,36 @@
+:root {
+
+/* fonts*/
+
+--main-fonts:"Roboto",sans-serif
+--secondary:"Raleway",sans-serif
+
+/* text colors */
+--main-colors
+
+--main-txt-cl: #212121;
+--main-txt-cl: #212121;
+--txt-2-cl: #2F303A; 
+--txt-3-cl: #2196F3;
+--txt-4-cl: #FFFFFF;
+
+/* bg colos */
+
+--light-bg-cl: #FFFFFF;
+--dark-bg-cl: #212121;
+}
+body {
+    font-family: var(--main-fonts);
+    color: var(--main-txt-cl);
+}
+/* reset styles */
+
+.link {
+text-decoration: none;
+}
+.list {
+list-style: none;
+}
+
+
+
