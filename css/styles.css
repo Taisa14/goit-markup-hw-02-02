@@ -50,10 +50,19 @@ body {
 }
 
 
- .section hero {
-color: var();
+ .hero-title {
+    background-color: var(--work-text-bg-color);
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primery-white-color);
  }
-
+.hero-btn {
+    color: #2196f3;
+}
  
  /* others */
 
