@@ -18,16 +18,13 @@
 --modal-window-close-border-color: rgba(0,0,0,0.1); 
 --portfolio-profect-gap:30 px
 --cubic: cubic-bezier(0.4,0,0.2,1);
- font-family: "Roboto"; sans-serif; 
+ 
 }
  
 body {
-    background-color: var(--primery-white-color);
-    color: var(--primary-text-color);
+    
 
-  .class"accent-color: {
-    color: var(accent-color:);
-}
+
     
 }
 .logo {
@@ -60,16 +57,6 @@ list-style: none;
     letter-spacing: 0.02em;
     color: var(--txt-3-cl);
 }
-.header-link:hover,
-.header-link:focus {
-    color: #2196F3;
-}
-.header.link:active,
-.header-link-current
 
-
-.footer {
-
-}
 
 
