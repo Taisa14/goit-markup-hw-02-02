@@ -44,9 +44,14 @@ body {
  .site-nav. list {
     color:var(--primery-black-color)
  }  
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:var(--button-hero-hover-color)
+}
+
 
  .section hero {
-
+color: var();
  }
 
  
