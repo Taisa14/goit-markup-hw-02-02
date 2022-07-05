@@ -22,7 +22,8 @@
 }
  
 body {
-
+ font-family: "Roboto";
+ 
 }
 /* logo Website */
 
@@ -40,10 +41,13 @@ body {
 
  /* site-nav */
 
- .site-nav. link {
-    color: #188ce8;
+ .site-nav. list {
+    color:var(--primery-black-color)
  }  
- 
+
+ .section hero {
+
+ }
 
  
  /* others */
@@ -55,6 +59,10 @@ body {
  .link {
     text-decoration: none;
  }
+
+ /* section hero */
+
+
 
  /* footer */
 .logo {
@@ -74,8 +82,44 @@ background-color: var(--footer-bg-color);
 
 /* portfolio page */
 
-
- 
+.work-btn-list {
+    background-color: var(--portfolio-overlay-text-bg-color);
+   color: var(--second-grey-color);
+}
+.work-btn-item:hover,
+.work-btn-item:focus { 
+background-color: var(--accent-color);
+color: var(--primery-white-color);
+}
+.work-btn-item.list.current {
+color: var(--accent-color);
+}
+.work-btn-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.potfolio-text{
+    color:var(--primary-text-color)
+}
+.btn,
+.portfolio-btn {
+    font-family:"Roboto"
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    display: flex;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #2196f3; 
+      
+} 
+.visually-hidden {
+    display: none;
+}
 
 
 
