@@ -22,41 +22,62 @@
 }
  
 body {
-    
 
-
-    
 }
-.logo {
-    color: var(--accent-color);
+/* logo Website */
+
+ .logo {
+    color: #2196f3;
     font-family: Raleway,sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-}
+ }
 
-.header-logo {
+ .header-logo {
     color: var(--primery-black-color);
+ }
+
+ /* site-nav */
+
+ .site-nav. link {
+    color: #188ce8;
+ }  
+ 
+
+ 
+ /* others */
+
+ .list {
+    list-style: none;
+ }
+ 
+ .link {
+    text-decoration: none;
+ }
+
+ /* footer */
+.logo {
+    color: #2196f3;
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    
+}
+.footer-logo {
+    color: var(--primery-white-color);
+}
+.footer  {
+background-color: var(--footer-bg-color);
 }
 
+/* portfolio page */
 
-.link {
-text-decoration: none;
-color: currentColor;
-}
-.list {
-list-style: none;
-}
 
-/* header section */
+ 
 
-.header-link {
-    font-weight:500 ;
-    font-size: 14px;
-    line-height:calc(16/12);
-    letter-spacing: 0.02em;
-    color: var(--txt-3-cl);
-}
+
 
 
 
