@@ -44,15 +44,23 @@ body {
  .header-logo {
     color: var(--primery-black-color);
  }
- .header-link list {
+ .header-link {
     font-family: "Roboto",sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0,02em;
-    color:var(--title-text-color);}
- .header-link-current {
-background-color: #2196f3;
+    color:#2196f3
+ }
+ .header-current {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    cursor:pointer
+ }
+.header-contacts {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
@@ -60,6 +68,7 @@ background-color: #2196f3;
     letter-spacing: 0.02em;
     cursor:pointer
 }
+ 
   .header-link.link:hover {
 color:var(--accent-color)
  }
