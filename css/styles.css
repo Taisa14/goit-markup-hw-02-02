@@ -52,6 +52,8 @@ body {
     letter-spacing: 0,02em;
     color:#2196f3
  }
+ 
+ 
  .header-current {
     color: #212121;
     font-weight: 500;
@@ -68,12 +70,36 @@ body {
     letter-spacing: 0.02em;
     cursor:pointer
 }
- 
-  .header-link.link:hover {
-color:var(--accent-color)
+.header-mail {
+    font-family: "Roboto";
+    font-style: medium;
+    font-size: 14px;
+    line-height: 1,14;
+    offset: 0px;
+    color:#757575
+    rgba(0, 0,0,0.25)
+ } 
+
+ .header-mail:hover {
+    color: #188ce8;
+  
+}
+.header-mail:focus {
+    color: #188ce8;
+}
+.header-telefon {
+ color: #757575;   
+ font-family: "Roboto";
+ font-style: Medium;
+ font-size: 14px;
+ line-height: 1,14;
+ letter-spacing: 2%;
+} 
+  .header-link link:hover {
+color:#2196f3
  }
- .header-link.link:focus {
-    color: var(--accent-color);
+ .header-link link:focus {
+    color:#2196f3
  }
 
 .hero {background-color: #2f303a
@@ -88,7 +114,7 @@ color:var(--accent-color)
     font-family: "Roboto";
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height:calc(60/44) ;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--primery-white-color);
@@ -102,10 +128,8 @@ color:var(--accent-color)
     line-height: 2.1;
    background-color: #2196f3;
    color: #ffffff;
-
+   border: none;
 }
- 
- /* others */
 
  .list {
     list-style: none;
@@ -116,7 +140,22 @@ color:var(--accent-color)
     
  }
 
+.section-h2 list{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1,17;
+    color:#212121
+
+}
+.section-p list {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 1,71;
+    color: #757575;
+}
  /* footer */
+ 
 .logo {
     color: #2196f3;
     font-family: Raleway,sans-serif;
@@ -131,7 +170,32 @@ color:var(--accent-color)
 .footer  {
 background-color: var(--footer-bg-color);
 }
-
+.footer-address {
+    font-family: "Roboto"; sens-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.06em;
+    color: #ffffff;
+}
+.footer-mail {
+  font-family: "Roboto"; sens-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.06em;
+    color: #ffffff;
+   
+}
+.footer-telefon  {
+  font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    
+}
 /* portfolio page */
 
 .work-btn-list {
