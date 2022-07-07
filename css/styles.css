@@ -197,7 +197,26 @@ background-color: var(--footer-bg-color);
     
 }
 /* portfolio page */
-
+/* header portfolio */
+.header-portfolio {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    cursor:pointer
+}
+.header-portfolio:hover {
+    color: #2196f3;
+}
+.header-portfolio-current {
+   font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0,02em;
+    color:#2196f3   
+}
 .work-btn-list {
     background-color: var(--portfolio-overlay-text-bg-color);
    color: var(--second-grey-color);
