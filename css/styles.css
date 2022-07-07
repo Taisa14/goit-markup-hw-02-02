@@ -49,8 +49,7 @@ body {
     color:var(--button-hero-hover-color)
 }
 
-
- .hero-title {
+.hero-title {
     background-color: var(--work-text-bg-color);
     font-family: "Roboto";
     font-weight: 900;
