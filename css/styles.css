@@ -98,9 +98,10 @@ color:#2196f3
  .header-link link:focus {
     color:#2196f3
  }
-
-.hero {background-color: #2f303a
+ .hero { background-color: #2f303a
 }
+
+
 
 
 
@@ -163,7 +164,7 @@ color:#757575
  font-weight: 700;
  font-size: 36px;
  line-height: calc(42/36);
-letter-spacing: 3%;
+ text-align: center;
  color: #212121;
 
 }
@@ -229,6 +230,7 @@ background-color: var(--footer-bg-color);
 }
 /* portfolio page */
 /* header portfolio */
+
 .header-portfolio {
     color: #212121;
     font-weight: 500;
@@ -252,14 +254,16 @@ background-color: var(--footer-bg-color);
     background-color: var(--portfolio-overlay-text-bg-color);
    color: var(--second-grey-color);
 }
+
 .work-btn-item:hover,
 .work-btn-item:focus { 
 background-color: var(--accent-color);
 color: var(--primery-white-color);
 }
 .work-btn-item.list.current {
-color: var(--accent-color);
+color:#2196f3
 }
+
 .work-btn-item {
     font-weight: 500;
     font-size: 16px;
@@ -272,7 +276,7 @@ color: var(--accent-color);
 }
 .btn,
 .portfolio-btn {
-    font-family:"Roboto"
+    font-family:"Roboto";
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30/16);
