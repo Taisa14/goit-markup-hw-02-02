@@ -22,12 +22,28 @@
 }
  
 body {
-font-family: "Roboto";sans-serif
+font-family: "Roboto", sans-serif;
+
 }
 
 
 
 /* header */
+.header:honer {
+    color: #2196f3;
+}
+.header:focus {
+    color: #2196f3;
+}
+.header {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    cursor:pointer
+
+}
 
 
 /* logo Website */
@@ -43,56 +59,38 @@ font-family: "Roboto";sans-serif
  .header-logo {
     color: var(--primery-black-color);
  }
+ .list {
+    color: #2f303a;
+ }
  .header-link {
-    font-family: "Roboto",sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0,02em;
+    
     color:#2196f3
  }
  
  
  .header-current {
     color: #212121;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    cursor:pointer
+    
  }
 .header-contacts {
     color: #212121;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    cursor:pointer
+    
 }
-.header-mail {
-    font-family: "Roboto";
-    font-style: medium;
-    font-size: 14px;
-    line-height: 1,14;
-    offset: 0px;
+.header-mail.link {
+    
     color:#757575
-    rgba(0, 0,0,0.25)
  } 
 
  .header-mail:hover {
     color: #188ce8;
-  
-}
+  }
 .header-mail:focus {
     color: #188ce8;
 }
 .header-telefon {
  color: #757575;   
  font-family: "Roboto";
- font-style: Medium;
- font-size: 14px;
- line-height: 1,14;
- letter-spacing: 2%;
+  
 } 
   .header-link link:hover {
 color:#2196f3
@@ -139,28 +137,48 @@ color:#2196f3
     
  }
 
-.section-h2 list{
-    font-family: "Roboto";
+/* section h2 */
+.section {
+font-family: "Roboto";
     font-size: 14px;
     font-weight: 700;
     line-height: 1,17;
-    color:#212121
-
 }
+.text1 {
+ font-weight: 700;
+ font-size: 14px;
+ line-height: calc(16/14);
+ color: #212121; 
+ 
+}
+
+.text { 
+font-weight: 400;      
+font-size: 14px;
+line-height: calc(24/14);
+color:#757575
+}
+
+.text2 {
+ font-weight: 700;
+ font-size: 36px;
+ line-height: calc(42/36);
+color: #212121;
+}
+
 .section-p list {
-    font-family: "Roboto";
-    font-size: 14px;
-    line-height: 1,71;
+   
     color: #757575;
 }
  /* footer */
  
-.logo {
+.footer-logo {
     color: #2196f3;
     font-family: Raleway,sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    vertical-align: top;
     
 }
 .footer-logo {
