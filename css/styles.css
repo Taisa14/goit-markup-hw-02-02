@@ -16,17 +16,12 @@
 --portfolio-overlay-text-bg-color: rgba(33,150,243,0.9); 
 --modal-window-bg-color: rgba(0,0,0,0.2);
 --modal-window-close-border-color: rgba(0,0,0,0.1); 
---portfolio-profect-gap:30 px
---cubic: cubic-bezier(0.4,0,0.2,1);
- 
-}
+ }
  
 body {
 font-family: "Roboto", sans-serif;
 font-style: normal;
 }
-
-
 
 /* header */
 .header:honer {
@@ -334,7 +329,8 @@ background-color: var(--footer-bg-color);
 }
 
 .footer-portfolio {
-    font-family: "Roboto"; sans-serif;
+
+    font-family: "Roboto";
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
@@ -343,7 +339,7 @@ background-color: var(--footer-bg-color);
     font-style: normal;
     }
 .footer-mail1 {
-  font-family: "Roboto"; sens-serif; 
+  font-family: "Roboto";  
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
@@ -353,7 +349,7 @@ background-color: var(--footer-bg-color);
     cursor: pointer;
 }
 .footer-telefon1  {
-  font-family: "Roboto"; sans-serif;
+  font-family: "Roboto"; 
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24/14);
