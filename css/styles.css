@@ -306,7 +306,16 @@ font-size: 16px;
 line-height: calc(30/16);
 color: #757575;
 }
-
+.text-portfolio1 {
+    font-size: 18px;
+    line-height: calc(36/16);
+    color: #212121;
+}
+.text-portfolio2 {
+    font-size: 16px;
+    line-height: calc(30/16);
+    color:#757575
+}
 
 
 
