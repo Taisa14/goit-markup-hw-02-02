@@ -213,7 +213,7 @@ background-color: var(--footer-bg-color);
 .footer1 {
     font-style: normal;
 }
-.footer-address link {
+.footer-adress {
     font-family: inherit;
     font-weight: 400;
     font-size: 14px;
@@ -221,14 +221,14 @@ background-color: var(--footer-bg-color);
     letter-spacing: 0.06em;
     cursor: pointer;
     font-style: normal;
-    color: var(--primery-white-color)
+    color: var(--primery-white-color);
+    text-decoration-line: none;
 }
 .footer-mail {
     font-family: inherit; 
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
-    line-height: 146%;
     letter-spacing: 0.06em;
     font-style: normal;
     color: var(--social-links-ft-bg-colors);
@@ -243,9 +243,7 @@ background-color: var(--footer-bg-color);
     font-style: regular;
     cursor: pointer;
     line-height: 24px;
-    line-height: 146%;
-    align-content: Left;
-    vertical-align: Top;
+    text-align: left;
     color: var(--social-links-ft-bg-colors);
   }
   
@@ -385,35 +383,38 @@ font-style: normal;
 background-color: var(--footer-bg-color);
 }
 
-.footer-portfolio {
+.footer-adress1 {
 
-    font-family: "Roboto";
+     font-family: inherit;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.06em;
-    color: #ffffff;
+    cursor: pointer;
     font-style: normal;
+    color: var(--primery-white-color);
+    text-decoration-line: none;
     }
 .footer-mail1 {
-  font-family: "Roboto";  
+     font-family: inherit; 
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.06em;
-    color: #ffffff;
     font-style: normal;
-    cursor: pointer;
+    color: var(--social-links-ft-bg-colors);
 }
 .footer-telefon1  {
-  font-family: "Roboto"; 
-  font-weight: 400;
-  font-size: 14px;
-  line-height: calc(24/14);
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  font-style: normal;
-  cursor: pointer;
+   font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.06em;
+    font-style: regular;
+    cursor: pointer;
+    line-height: 24px;
+    text-align: left;
+    color: var(--social-links-ft-bg-colors);
     
 }
 
