@@ -145,53 +145,53 @@ color:#2196f3
     font-size: 14px;
     font-weight: 700;
     }
-.text1 {
-font-style: Bold;
+.title-work {
+font-family: inherit;
 font-size: 14px;
 line-height:calc(16/14)  ;
-line-height: 100%;
 align-items: Left;
-vertical-align: Top;
 letter-spacing: 0.06em
 color: var(--title-text-color); 
 }
 
-.text { 
-
+.text-work { 
+font-family: inherit;
 font-style: Regular;
 font-size: 14px;
 line-height:calc(24/14) ;
-line-height: 146%;
 align-items: Left;
-vertical-align: Top;
 letter-spacing: 0.06em
 color:var(--primary-text-color);
 
 }
 
-.text2 {
+.title-about {
 
-font-style: Bold;
+font-family: inherit;
+font-weight: 700;
 font-size: 36px;
-line-height: (42/36);
-line-height: 100%;
-align-content: Center;
-vertical-align: Top;
-letter-spacing: 3%;
+line-height:calc(42/36);
+letter-spacing:0.03em;
+text-align: center;
 color: var(--title-text-color); 
 
 }
 
-.text3 {
+.title-name {
     font-weight: 400;
     font-size: 16px;
     line-height: calc(19/16);
     color: #212121;
+    text-align: center;
 }
-.text4 {
-font-size: 16px;
-line-height: calc(16/16);
-color: #757575;
+.text-profession {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(18/16);
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: center;
 }
  /* footer */
  
