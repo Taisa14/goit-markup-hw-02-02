@@ -62,9 +62,11 @@ font-style: normal;
  }
  .header-link {
     
-    color:#2196f3
+    color:var(--title-text-color)
  }
- 
+ .header-current.link {
+    color: var(--accent-color);
+ }
 
 .header-contacts {
     color: #212121;
