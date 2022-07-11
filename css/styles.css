@@ -252,11 +252,13 @@ font-style: normal;
    
 }
 
+
+
 .work-btn-item.current {
     
 background-color: var(--accent-color);
 color: var(--primery-white-color);
-}
+    }
 
 .header-portfolio:hover {
     color: #2196f3;
