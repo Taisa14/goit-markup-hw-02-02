@@ -241,7 +241,7 @@ font-style: normal;
   }
   
 /* portfolio page */
-/* header portfolio */
+
 
 .header-portfolio {
     
@@ -251,18 +251,12 @@ font-style: normal;
     font-style: normal;
    
 }
-.section portfolio list {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(30/16);
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    background-color: var(--primery-white-color);
+
+.work-btn-item.current {
+    
+background-color: var(--accent-color);
+color: var(--primery-white-color);
 }
-    .work-btn-item.current {
-        background-color: var(--accent-color);
-        color: var(--primery-white-color);
-    }
 
 .header-portfolio:hover {
     color: #2196f3;
@@ -284,15 +278,16 @@ color: var(--primery-white-color);
 }
     
 .work-btn-item {
-    font-weight: 500;
-    font-size: 16px;
-    line-height:calc(26/16);
-    letter-spacing: 0.03em;
-color: var(--title-text-color) ;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height:calc(26/16);
+letter-spacing: 0.03em;
+color:var(--title-text-color) ;
 cursor: pointer;
 }
 
-.header-mailo{
+.header-kontact{
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -300,26 +295,10 @@ line-height: calc(16/14);
 letter-spacing: 0.02em;
 color: #757575; 
 }
-.header-mailo:hover {
+.header-kontact:hover {
     color: #188ce8;
 }
-.header-mailo:focus {
-    color: #188ce8;
-}
-
-
-
-.header-tel {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16/14);
-    letter-spacing: 0.02em;
-    color:#757575
-}
-.header-tel:hover {
-    color: #188ce8;
-}
-.header-tel:focus {
+.header-kontact:focus {
     color: #188ce8;
 }
 
