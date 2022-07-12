@@ -324,6 +324,7 @@ font-size: 14px;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
 color: #757575; 
+text-decoration: none;
 }
 .header-kontact:hover {
     color: #188ce8;
