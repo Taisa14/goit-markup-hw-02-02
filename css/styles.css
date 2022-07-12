@@ -68,34 +68,24 @@ font-family: 'Roboto', sans-serif;
 
 .header-contacts {
     color: #212121;
-    
 }
-.header-mail {
-   font-size: 14px;
-   line-height: calc(16/14);
-   letter-spacing: 0.02em;
-    color:#757575
- } 
  
- 
-.header-mail:hover {
-    color: var(--accent-color);
-} 
-.header-mail:focus {
-    color: #188ce8;
-}
-.header-phone {
+.header-contacts-link {
+font-weight: 500;
 font-size: 14px;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
 color: #757575; 
+text-decoration: none;
+}
+.header-contacts-link:hover {
+    color: #188ce8;
+}
+.header-contacts-link:focus {
+    color: #188ce8;
 } 
-.header-phone:hover {
-    color: #188ce8;
-}
-.header-phone:focus {
-    color: #188ce8;
-}
+
+
 
  .hero { background-color: #2f303a
 }
@@ -318,7 +308,7 @@ color:var(--title-text-color) ;
 cursor: pointer;
 }
 
-.header-kontact{
+.header-kontact {
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
