@@ -257,7 +257,8 @@ font-style: normal;
 
  .header-link {
     
-    color:var(--title-text-color)
+    color:var(--title-text-color);
+    text-decoration: none;
  }
  .header-current.link {
     color: var(--accent-color);
