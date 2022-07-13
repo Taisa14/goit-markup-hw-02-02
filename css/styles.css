@@ -263,7 +263,7 @@ font-style: normal;
  }
 
 .header-portfolio {
-    
+    font-family: "Roboto",sans-serif;
     color: #212121;
     font-weight: 500;
     font-size: 14px;
@@ -309,6 +309,7 @@ cursor: pointer;
 }
 
 .header-kontact {
+font-family:"Roboto",sans-serif ;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
